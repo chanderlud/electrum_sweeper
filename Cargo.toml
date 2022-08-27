@@ -1,0 +1,12 @@
+[package]
+name = "electrum_sweeper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.83"
+log = "0.4.17"
+stderrlog = "0.5.3"
+structopt = "0.3.26"
